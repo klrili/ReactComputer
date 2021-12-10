@@ -1,0 +1,112 @@
+.section {
+  margin-left: 40px;
+  margin-top: 60px;
+  .use_ {
+    .filter {
+      div {
+        margin: 0;
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        background: #c4c4c4;
+        margin-bottom: 30px;
+
+        h2 {
+          position: absolute;
+          margin: 0;
+          margin-left: 15px;
+          top: 50%;
+          transform: translate(0, -50%);
+
+          font-family: Inter;
+          font-weight: 500;
+          font-size: 13px;
+        }
+      }
+    }
+    .sort {
+      div {
+        right: 0;
+        margin-right: 40px;
+        position: absolute;
+        width: 400px;
+        height: 30px;
+        background: #c4c4c4;
+        h2 {
+          position: absolute;
+          margin: 0;
+          margin-left: 15px;
+          top: 50%;
+          transform: translate(0, -50%);
+
+          font-family: Inter;
+          font-weight: 500;
+          font-size: 13px;
+        }
+        img {
+          position: absolute;
+          right: 10px;
+          width: 38px;
+          height: 17px;
+          top: 50%;
+          transform: translate(0, -50%);
+        }
+      }
+    }
+  }
+  .filters {
+    margin: 0;
+    width: 300px;
+    height: auto;
+    left: 44px;
+    top: 394px;
+
+    background: #ffffff;
+    div {
+      margin-top: 54px;
+      p {
+        margin: 5px;
+        margin-left: 25px;
+
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+      }
+      div {
+        margin: 0;
+        h3 {
+          margin: 5px;
+          margin-left: 25px;
+
+          font-family: Inter;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 20px;
+        }
+        div {
+          margin: 0;
+          margin-left: 15px;
+          h3 {
+            margin: 5px;
+            margin-left: 25px;
+
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+  h1 {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 36px;
+  }
+}
+.wrapper {
+  margin-left: 340px;
+  position: absolute;
+}

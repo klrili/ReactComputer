@@ -1,0 +1,2 @@
+1 videocards/nvidia
+2 videocards/amd

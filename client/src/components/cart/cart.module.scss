@@ -1,0 +1,195 @@
+.cart {
+  @media (max-width: 1320px) {
+    width: 360px;
+  }
+  z-index: 3;
+  position: absolute;
+  width: 577px;
+  height: auto;
+  right: 0;
+  background: #ffffff;
+
+  .cartItem {
+    @media (max-width: 1320px) {
+      width: 310px;
+      height: 110px;
+      margin-left: 25px;
+    }
+    position: relative;
+    width: 462px;
+    height: 185px;
+    margin-left: 55px;
+    margin-top: 20px;
+    background: #000000;
+    border-radius: 10px;
+
+    .cartImage {
+      @media (max-width: 1320px) {
+        width: 109px;
+        margin-left: 16px;
+        margin-top: 14px;
+      }
+      top: 0;
+      position: absolute;
+      margin-left: 26px;
+      margin-top: 24px;
+      img {
+        width: 48%;
+      }
+    }
+
+    h3 {
+      @media (max-width: 1320px) {
+        font-size: 13px;
+        margin-left: 140px;
+        width: 120px;
+        height: 50px;
+      }
+      position: absolute;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      color: #ffffff;
+      width: 182px;
+      height: 72px;
+      margin-left: 219px;
+      top: 0;
+    }
+    .volume {
+      @media (max-width: 1320px) {
+        margin-left: 135px;
+        margin-top: 70px;
+      }
+      margin-left: 216px;
+      margin-top: 98px;
+      img {
+        @media (max-width: 1320px) {
+          width: 9px;
+          height: 9px;
+        }
+        margin-left: 8px;
+        margin-right: 8px;
+      }
+      .inputButton {
+        @media (max-width: 1320px) {
+          width: 39px;
+          height: 21px;
+        }
+        position: relative;
+        width: 70px;
+        height: 36px;
+        background: #ffffff;
+        border-radius: 3px;
+        input {
+          @media (max-width: 1320px) {
+            font-size: 16px;
+          }
+          text-align: center;
+          width: 100%;
+          position: absolute;
+          background-color: transparent;
+
+          z-index: 1;
+          border: 0;
+          outline: 0;
+          font-family: Inter;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 26px;
+        }
+      }
+    }
+    .price {
+      @media (max-width: 1320px) {
+        right: 15px;
+        top: 64px;
+        font-size: 10px;
+      }
+      position: absolute;
+      right: 15px;
+      top: 110px;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      color: #ffffff;
+    }
+    .remove {
+      width: 45px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 11px;
+    }
+  }
+  .cartEnd {
+    @media (max-width: 1320px) {
+      margin-top: 20px;
+      width: 360px;
+      height: 140px;
+    }
+    position: relative;
+    left: 0;
+    margin-top: 20px;
+    width: 577px;
+    height: 186px;
+
+    bottom: 0;
+    background: #000000;
+    h2 {
+      @media (max-width: 1320px) {
+        font-size: 24px;
+        margin: 0;
+        margin-left: 20px;
+        margin-top: 14px;
+      }
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      color: #ffffff;
+      margin: 0;
+      margin-left: 50px;
+      margin-top: 24px;
+    }
+    button {
+      @media (max-width: 1320px) {
+        width: 310px;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 30px;
+      }
+      width: 461px;
+      height: 55px;
+
+      margin-top: 34px;
+      margin-left: 50px;
+
+      background: #ffffff;
+      border-radius: 18px;
+      h3 {
+        @media (max-width: 1320px) {
+          font-size: 15px;
+        }
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        top: 0;
+        margin: 0;
+        color: #000000;
+      }
+      img {
+        @media (max-width: 1320px) {
+          margin-right: 50px;
+        }
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        margin-right: 130px;
+        margin-bottom: 50px;
+      }
+    }
+  }
+}

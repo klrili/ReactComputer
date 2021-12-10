@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+body {
+  background: #e7e7e7;
+  margin: 0;
+}
+
+body {
+  .novelty {
+    h3 {
+      left: 0;
+      position: absolute;
+      color: #ffffff;
+    }
+
+    .slidesButtons {
+      position: absolute;
+      right: 0;
+      margin-right: 20px;
+      margin-top: 20px;
+      @media (max-width: 600px) {
+        margin-right: 10px;
+        margin-top: 10px;
+      }
+    }
+    button {
+      margin-left: 10px;
+      border: none;
+      padding: 0;
+      background-color: transparent;
+      cursor: pointer;
+    }
+    a {
+      img {
+        min-width: 100%;
+      }
+    }
+  }
+  .preWrapper {
+    h1 {
+      margin: 0;
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-bottom: 30px;
+      font-family: Oswald;
+      font-weight: 500;
+      font-size: 64px;
+      @media (max-width: 1320px) {
+        font-size: 54px;
+      }
+      @media (max-width: 820px) {
+        font-size: 35px;
+        margin-bottom: 0;
+      }
+      @media (max-width: 600px) {
+        font-size: 23px;
+        margin-bottom: 0;
+      }
+    }
+  }
+  .wrapper {
+    // margin-left: 20px;
+
+    padding: 30px;
+    @media (max-width: 930px) {
+      padding: 20px;
+    }
+    @media (max-width: 600px) {
+      padding: 5px;
+    }
+  }
+}
